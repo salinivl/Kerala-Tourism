@@ -91,7 +91,7 @@ function validateName(){
       return true
    }
    else if(regexpwdweak.test(password.value)==true){
-    passwordstrength.innerHTML="Password Strength:Weak"
+    passwordstrength.innerHTML="Password Strength:Weak (Give special symbols and atleast 12 characters for strong password)"
     passwordstrength.style.color='Red'
       return true
    }
