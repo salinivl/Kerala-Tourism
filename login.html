@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!-- navigation -->
+<nav class="navbar navbar-expand-sm-md-lg navbar-light navbar-fixed-top">
+       
+  <div class="container-md">
+      <div class="logo">
+      <!-- <img src="/image/logo.jpg"  alt="logo" width="50" height="50"> -->
+      <p class="card-text" style="text-transform: none; text-decoration: none; font-size: 30px; font-family: 'Trebuchet MS'; font-weight: bolder ;">Kerala Tourism</p>
+</div>
+      <div class="menu" >
+    <a class="navbar-brand" href="./index.html" >Home</a>
+    <a class="navbar-brand" href="./district.html">Districts</a>
+    <a class="navbar-brand" href="./signup.html">Sign Up</a>
+    <a class="navbar-brand" href="./login.html">Log In</a>
+    
+    
+  </div>
+  </div>
+</nav>
+
+  <form onsubmit="return validateForm()">
+    <!-- style=" margin-top: 10px; margin-bottom: 25px; width: 8cm; height: 12cm; border: .1em solid grey; border-radius: 2%; background-color: rgb(253, 253, 250);text-align: center;padding: 50px 20px 10px 20px;margin-left: 600px;" -->
+        
+      <div class="mb-3" >
+        <label for="Heading" class="form-label " style="font-weight:bold;font-size: .7cm;">Log In</label>
+        <div id="emailHelp" class="form-text"></div>
+      </div>
+
+      <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Email Address" onkeyup="return validateEmail()">
+          <span id="emailerror" style="text-align: center; font-size: small;"></span>  
+        </div>
+        
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control " id="password" placeholder="Password" onkeyup="validatePassword()">
+          <span id="pwderror" style="text-align: center; font-size: small;"></span>
+        </div>
+        <div class="mb-3 form-check">
+          <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
+          <label class="form-check-label" for="exampleCheck1" style="text-align: center; margin-left: -.7cm;font-size: smaller;"> <a href="#">Forgot Password</a> </label>
+        </div>
+        
+        <button type="submit" class="btn btn-primary" style="border-radius: 1cm; border-color: white; border-width: 2px; font-size: 90%; width: 7cm;background-color: rgb(4, 83, 126);">Log In</button>
+       <p style="font-size: smaller;padding-top: 5px;">Do not have an account? <a href="./signup.html">Sign in here</a></p>
+      </form> 
+
+<script src="./scriptlogin.js"></script>
+</body>
+<footer>
+  <!-- Follow us -->
+  <div class="cardfollowus" style="background-color: rgb(74, 74, 74); padding: 10px; margin-top: 60px;">
+    <div class="card-body" style="color: white; font-size: .6cm;text-align: center; padding-bottom: 5px;">
+        Follow us
+    </div>
+    <div class="imagesfollowus" style="text-align: center;">
+   <img src="./image/fb.png" alt="" width="40cm" height="40cm"   >
+   <img src="./image/google.png" alt="" width="40cm" height="40cm"   >
+   <img src="./image/instagram.png" alt="" width="40cm" height="40cm"   >
+   <img src="./image/pint.png" alt="" width="40cm" height="40cm"   >
+   <img src="./image/twitter.png" alt="" width="40cm" height="40cm"   >
+   <img src="./image/skype.png" alt="" width="40cm" height="40cm"   >
+   <h6 style="text-align: left; color: white; font-size: small;">Copyright@KeralaTourism</h6>
+  </div>
+  </div>
+
+</footer>
+</html>
+
+
+
+

@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-image: url(./image/bg2.jpg);
+    background-size: 1600px 900px;
+    background-repeat: no-repeat;
+    
+}
+.container-md {
+    
+    margin-top: -1cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 80px;
+    
+    
+}
+.container-md a{
+   font-size: .43cm;
+  font-weight: 400;
+   margin-inline-end: 1cm;
+   color: white;text-align: left;
+   
+}
+
+.container-md a:hover{
+    color: rgb(52, 232, 7);
+}
+.container-md logo{
+    padding: 80px;
+}
+.card-text{
+    color: rgb(242, 244, 250);
+    font-size: 17px;
+    font-weight: 500;
+}
+form{
+    width: 100%;
+  max-width: 330px;
+  max-height: 680px;
+  padding: 15px;
+  margin: auto;border: .1em solid grey; 
+  border-radius: 2%; 
+  background-color: rgb(253, 253, 250);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.mb-3 {
+    font-size: 90%;
+    
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+.mb-3 input{
+    border-radius: .2cm;
+    border-color: rgb(113, 113, 113);
+    padding: 2%;
+    font-size: 90%;
+   
+}
+

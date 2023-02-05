@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-image: url(./image/home1.png);
+    background-size: 1600px 42%;
+    background-repeat: no-repeat;
+    
+}
+.container-md {
+    
+    margin-top: -1cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 80px;
+    
+    
+}
+.container-md a{
+   font-size: .43cm;
+  font-weight: 400;
+   margin-inline-end: 1cm;
+   color: white;text-align: left;
+   
+}
+
+.container-md a:hover{
+    color: rgb(52, 232, 7);
+}
+
+
+.card h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;   
+    font-size: 70px;
+    font-weight: 800;
+    
+}  
+
+.card-text{
+    color: rgb(242, 244, 250);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.container{
+    margin-top: 8%;
+    padding: 10px;
+}
+.places{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: green;  
+   margin-top: 30%;
+   margin-left: -12%;
+   
+    
+}
+.places h1{
+    font-weight: 800;
+    font-size: 1.2cm;
+   
+
+}
+.places p{
+    text-align: center;
+}
+

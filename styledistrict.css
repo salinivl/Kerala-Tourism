@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-image: url(./image/district.jpg);
+    background-size: 1600px 500px;
+    background-repeat: no-repeat;
+    
+}
+.container-md {
+    
+    margin-top: -1cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 80px;
+    
+    
+}
+.container-md a{
+   font-size: .43cm;
+  font-weight: 400;
+   margin-inline-end: 1cm;
+   color: white;text-align: left;
+   
+}
+
+.container-md a:hover{
+    color: rgb(52, 232, 7);
+}
+.container-md logo{
+    padding: 80px;
+}
+
+.card h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;   
+    font-size: 70px;
+    font-weight: 800;
+    
+}  
+
+.card-text{
+    color: rgb(242, 244, 250);
+    font-size: 17px;
+    font-weight: 500;
+}
+.container{
+    color: white;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 4%;
+    font-size: 1.5cm;
+    font-weight: 700;
+}
+
